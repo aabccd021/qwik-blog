@@ -4,9 +4,9 @@ import { Link } from '@builder.io/qwik-city';
 
 export default component$(() => {
   return (
-    <div>
+    <div class="p-6">
       <h1>
-        Welcome to Qwik <span class="lightning">⚡️</span>
+        Welcome to Qwik <span>⚡️</span>
       </h1>
 
       <ul>
@@ -23,7 +23,7 @@ export default component$(() => {
 
       <h2>Commands</h2>
 
-      <table class="commands">
+      <table>
         <tr>
           <td>
             <code>npm run dev</code>
@@ -52,7 +52,7 @@ export default component$(() => {
 
       <h2>Add Integrations</h2>
 
-      <table class="commands">
+      <table>
         <tr>
           <td>
             <code>npm run qwik add azure-swa</code>
@@ -137,9 +137,6 @@ export default component$(() => {
           </a>
         </li>
       </ul>
-      <Link class="mindblow" href="/flower/">
-        Blow my mind 🤯
-      </Link>
     </div>
   );
 });
